@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #000000, #f1c40f);
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* MAIN */
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.card-filme {
+    background: rgba(255, 255, 255, 0.95);
+    max-width: 1100px;
+    width: 90%;
+    display: flex;
+    gap: 40px;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.poster img {
+    max-width: 300px;
+    border-radius: 15px;
+}
+
+.filme h1 {
+    font-size: 60px;
+    margin-bottom: 12px;
+    color: #111;
+}
+
+.filme h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #f1c40f;
+}
+
+.filme p {
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 12px;
+    font-size: 1rem;
+}
+
+.info-filme {
+    margin-top: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.badge-nota {
+    background: #f1c40f;
+    color: #000;
+    padding: 8px;
+    border-radius: 99px;
+    font-weight: 700;
+}
+
+/* ====== FOOTER ====== */
+footer {
+    background: #000;
+    color: #f1c40f;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+}
